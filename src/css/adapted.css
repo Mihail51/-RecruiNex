@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 1200px) {
+	.title {
+		font-size: 60px;
+		margin: 5px 0;
+	}
+	.screen__subtitle {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.title {
+		font-size: 50px;
+	}
+	.screen__subtitle {
+		font-size: 20px;
+	}
+	.screen__btn {
+		font-size: 24px;
+	}
+}
+ @media screen and (max-width: 768px) {
+ 	.title {
+ 		font-size: 60px;
+ 	}
+}
+
+ @media screen and (max-width: 576px) {
+ 	.title {
+ 		font-size: calc((100vw - 375px)/(576 - 375)*(50 - 36) + 36px);
+ 	}
+ 	.screen__subtitle {
+ 		font-size: calc((100vw - 375px)/(576 - 375)*(20 - 15) + 15px);
+ 	}
+ 	.screen__btn {
+ 		font-size: calc((100vw - 375px)/(576 - 375)*(24 - 20) + 20px);
+ 	}
+ }

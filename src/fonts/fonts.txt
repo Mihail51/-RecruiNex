@@ -1,0 +1,11 @@
+
+Poppins Light
+Poppins SemiBold
+Poppins Medium
+Bai Jamjuree Bold
+Bai Jamjuree Medium
+
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Bai Jamjuree', sans-serif;

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RecruiNex</title>
+	<meta id="my-description" name="description" content="описание не длиннее 155 символов">
+  	<meta id="my-keywords" name="keywords" content="мета-теги, шаблон, html, css">
+
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  	<link rel="stylesheet" href="css/fonts.css">
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link id="mystyle" rel="stylesheet" href="css/style.css">
+  	<link id="myadapted" rel="stylesheet" href="css/adapted.css">
+</head>
+<body>
+	<header class="header main__header">
+		<div class="container header__container">
+			<div class="wrap header__wrap col-xl-12 col-md-11 col-11">
+				<nav class="nav header__nav col-11 col-lg-12 row d-flex justify-content-between align-items-center">
+					<a href="#" class="logo header__logo col-5 col-lg-2">Recrui<span>Nex</span></a>
+					<!-- Hamburger icon -->
+					<input type="checkbox" name="header-menu" id="header-menu" class="header-menu visually-hidden">
+					<label for="header-menu" class="hamb header__hamb d-inline d-lg-none"><span class="hamb__line header__hamb__line"></span></label>
+					<!-- End Hamburger icon  -->
+					<ul class="menu header__menu col-lg-9 col-xl-8 d-none d-lg-flex justify-content-between align-items-center">
+						<li class="item menu__item header__menu__item header__menu__item_1"><a href="#about">About us</a></li>
+						<li class="item menu__item header__menu__item header__menu__item_2"><a href="#services">Services</a></li>
+						<li class="item menu__item header__menu__item header__menu__item_3"><a href="#market">Market expertise</a></li>
+						<li class="item menu__item header__menu__item header__menu__item_4"><a href="#clients">Clients</a></li>
+						<li class="item menu__item header__menu__item header__menu__item_5"><a href="#contacts">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="screen main__screen"> 
+			<div class="container screen__container">
+				<div class="wrap screen__wrap col-lg-12 col-sm-11 col-12">
+					<article class="content screen__content col-lg-6 col-sm-11 col-12 align-self-center row pe-xl-4 pe-lg-3 mx-n0 mb-sm-4 pb-sm-3 mb-xs-4 pb-xs-3">
+						<hi class="title col-lg-12 col-md-9 col-12 px-0">Find&Hire Experts <span>for&nbsp;any&nbsp;job</span></hi>
+						<p class="subtitle screen__subtitle  px-0">We help talents meets opportunity and grow</p>
+						<a href="" class="btn screen__btn  px-0">Contact us</a>
+					</article>
+					<article class="photo screen__photo col-lg-6 col-sm-11 col-12 row justify-content-center">
+						<!-- 1x: 620px; 2x: 1240px -->
+						<!-- tablet 1x: 664px; 2x: 1328px -->
+						<!-- mobile 1x: 324px; 2x: 648px -->
+						<picture class="image screen__image">
+							<source media="(max-width: 375px)" type="image/webp" srcset="images/main-screen-mobile.webp 1x, images/main-screen-mobile@2.webp 2x">
+							<source media="(max-width: 375px)" type="image/jpg" srcset="images/main-screen.mobile.jpg 1x, images/main-screen.mobile@2.jpg 2x">
+							<source media="(max-width: 768px)" type="image/webp" srcset="images/main-screen-tablet.webp 1x, images/main-screen-tablet@2.webp 2x">
+							<source media="(max-width: 768px)" type="image/jpg" srcset="images/main-screen.tablet.jpg 1x, images/main-screen.tablet@2.jpg 2x">
+							<source media="(max-width: 1440px)" type="image/webp" srcset="images/main-screen.webp 1x, images/main-screen@2.webp 2x">
+							<img src="images/main-screen.jpg" srcset="images/main-screen@2.jpg 2x" width="620" height="603" alt="" class="">
+						</picture>
+					</article>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+</body>
+</html>
