@@ -1,3 +1,8 @@
+:root {
+	--bs-nav-link-font-size: 20px;
+	--bs-nav-link-font-weight: 300;
+}
+
 body {
 	max-width: 1440px;
 	min-width: 375px;
@@ -26,12 +31,12 @@ a {
 }
 
 .main__header {
+	min-height: 82px;
+	height: auto;
 	border-radius: 0px 0px 20px 20px;
 	background: #fff;
 }
 .header__wrap {
-	height: 82px;
-/*	background: yellow;  */
 	margin-bottom: 90px;
 }
 .header__nav {
@@ -41,9 +46,6 @@ a {
 }
 .header__logo {
 	height: 60px;
-/*	display: flex;
-	justify-content: flex-start;
-	align-items: center;  */
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 200%;
@@ -113,6 +115,9 @@ a {
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
+}
+.navbar-contacts {
+	border-top: 2px solid #2F0899;
 }
 
 .screen__wrap {
