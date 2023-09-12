@@ -26,24 +26,17 @@ a {
 }
 
 .main__header {
+	min-height:82px;
+	height: auto;
 	border-radius: 0px 0px 20px 20px;
 	background: #fff;
 }
 .header__wrap {
-	height: 82px;
-/*	background: yellow;  */
+	min-height: 82px;
 	margin-bottom: 90px;
-}
-.header__nav {
-/*	display: flex;  */
-/*	justify-content: space-between;  */
-/*	align-items: center;  */
 }
 .header__logo {
 	height: 60px;
-/*	display: flex;
-	justify-content: flex-start;
-	align-items: center;  */
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 200%;
@@ -54,9 +47,6 @@ a {
 }
 .header__menu {
 	min-height: 60px;
-/*	display: flex;  
-	justify-content: space-between;
-	align-items: center;  */
 }
 .header__menu__item a {
 	font-size: 24px;
@@ -65,18 +55,19 @@ a {
 	color: #363636;
 }
 .header__hamb {
+	position: relative;
 	width: 32px;
 	height: 24px;
 	cursor: pointer;
-/*	display: none;  */
 }
 .hamb__line {
-	position: relative;
+	position: absolute;
 	display: block;
 	width: 32px;
 	height: 4px;
 	border-radius: 5px;
 	background: #2f8099;
+	left: 0;
 }
 .hamb__line::before, 
 .hamb__line::after {
@@ -89,7 +80,7 @@ a {
 	transition: all .2s ease-out;
 }
 .header__hamb__line::before {
-	top: 9.5px;
+	top: 10px;
 }
 .header__hamb__line::after {
 	top: 20px;
@@ -113,6 +104,10 @@ a {
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
+}
+#header-menu:checked ~ .header__menu, 
+#header-menu:checked ~ .header__contacts {
+	display: flex!important;
 }
 
 .screen__wrap {

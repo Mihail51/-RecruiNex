@@ -16,19 +16,38 @@
 <body>
 	<header class="header main__header">
 		<div class="container header__container">
-			<div class="wrap header__wrap col-xl-12 col-md-11 col-11">
-				<nav class="nav header__nav col-11 col-lg-12 row d-flex justify-content-between align-items-center">
+			<div class="wrap header__wrap col-xl-12 col-md-11 col-12 d-flex flex-column justify-content-around align-items-center">
+				<nav class="nav header__nav col-12 col-lg-12 row d-flex justify-content-between align-items-center">
 					<a href="#" class="logo header__logo col-5 col-lg-2">Recrui<span>Nex</span></a>
 					<!-- Hamburger icon -->
 					<input type="checkbox" name="header-menu" id="header-menu" class="header-menu visually-hidden">
 					<label for="header-menu" class="hamb header__hamb d-inline d-lg-none"><span class="hamb__line header__hamb__line"></span></label>
 					<!-- End Hamburger icon  -->
-					<ul class="menu header__menu col-lg-9 col-xl-8 d-none d-lg-flex justify-content-between align-items-center">
+					<ul class="menu header__menu col-lg-9 col-xl-8 col-12 d-none d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center flex-column">
 						<li class="item menu__item header__menu__item header__menu__item_1"><a href="#about">About us</a></li>
 						<li class="item menu__item header__menu__item header__menu__item_2"><a href="#services">Services</a></li>
 						<li class="item menu__item header__menu__item header__menu__item_3"><a href="#market">Market expertise</a></li>
 						<li class="item menu__item header__menu__item header__menu__item_4"><a href="#clients">Clients</a></li>
 						<li class="item menu__item header__menu__item header__menu__item_5"><a href="#contacts">Contacts</a></li>
+					</ul>
+					<ul class="contacts header__contacts col-12 d-none justify-content-start flex-wrap border-top border-2 border-primary">
+						<dl class="contact header__contact col-md-5 col-12">
+							<dt class="term header__term">Phone:</dt>
+							<dd class="description header__description">+380964742934</dd>
+						</dl>
+						<dl class="contact header__contact col-md-6 col-12">
+							<dt class="term header__term">Email:</dt>
+							<dd class="description header__description">recruitnex_team@gmail.com</dd>
+						</dl>
+						<dl class="contact header__contact col-md-5 col-12">
+							<dt class="term header__term">Social media:</dt>
+							<dd class="description header__description">
+								<ul class="socials header__socials">
+									<li class="cocial header__social d-inline"><a href="#"><img width="61" height="61" src="images/facebook.svg" alt=""></a></li>
+									<li class="cocial header__social d-inline"><a href="#"><img width="61" height="61" src="images/linkedIn.svg" alt=""></a></li>
+								</ul>
+							</dd>
+						</dl>
 					</ul>
 				</nav>
 			</div>
