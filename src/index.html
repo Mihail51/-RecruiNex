@@ -14,11 +14,11 @@
   	<link id="myadapted" rel="stylesheet" href="css/adapted.css">
 </head>
 <body>
-	<header class="header main__header">
+	<header class="header main__header bg-white rounded-bottom-4">
 		<div class="container header__container">
 			<div class="wrap header__wrap col-xl-12 col-md-11 col-12 d-flex flex-column justify-content-around align-items-center">
 				<nav class="nav header__nav col-12 col-lg-12 row d-flex justify-content-between align-items-center">
-					<a href="#" class="logo header__logo col-5 col-lg-2">Recrui<span>Nex</span></a>
+					<a href="#" class="logo header__logo col-5 col-lg-2 px-0">Recrui<span>Nex</span></a>
 					<!-- Hamburger icon -->
 					<input type="checkbox" name="header-menu" id="header-menu" class="header-menu visually-hidden">
 					<label for="header-menu" class="hamb header__hamb d-inline d-lg-none"><span class="hamb__line header__hamb__line"></span></label>
@@ -53,33 +53,227 @@
 			</div>
 		</div>
 	</header>
-<!--	<main>
+	<main>
 		<section class="screen main__screen"> 
 			<div class="container screen__container">
-				<div class="wrap screen__wrap col-lg-12 col-sm-11 col-12">
-					<article class="content screen__content col-lg-6 col-sm-11 col-12 align-self-center row pe-xl-4 pe-lg-3 mx-n0 mb-sm-4 pb-sm-3 mb-xs-4 pb-xs-3">
-						<hi class="title col-lg-12 col-md-9 col-12 px-0">Find&Hire Experts <span>for&nbsp;any&nbsp;job</span></hi>
+				<div class="wrap screen__wrap col-lg-12 col-12 d-flex flex-wrap justify-content-around mt-6 mb-10">
+					<article class="content screen__content col-lg-6 col-12 align-self-center row pe-xl-4 pe-lg-3 mx-n0 mb-4 pb-sm-3 mb-xs-4 pb-xs-3">
+						<h2 class="h2 title screen__title col-lg-12 col-md-9 col-12 px-0">Find&Hire Experts <span>for&nbsp;any&nbsp;job</span></h2>
 						<p class="subtitle screen__subtitle  px-0">We help talents meets opportunity and grow</p>
-						<a href="" class="btn screen__btn  px-0">Contact us</a>
+						<a href="" class="btn screen__btn rounded-4 bg-color3 text-white px-0 py-0 d-flex justify-content-center align-items-center">Contact us</a>
 					</article>
-					<article class="photo screen__photo col-lg-6 col-sm-11 col-12 row justify-content-center">  
--->						<!-- 1x: 620px; 2x: 1240px -->
+					<article class="photo screen__photo col-lg-6 col-12 row justify-content-center">  
+						<!-- 1x: 620px; 2x: 1240px -->
 						<!-- tablet 1x: 664px; 2x: 1328px -->
 						<!-- mobile 1x: 324px; 2x: 648px -->
-<!--						<picture class="image screen__image">
+						<picture class="image screen__image px-0 px-lg-n0">
 							<source media="(max-width: 375px)" type="image/webp" srcset="images/main-screen-mobile.webp 1x, images/main-screen-mobile@2.webp 2x">
 							<source media="(max-width: 375px)" type="image/jpg" srcset="images/main-screen.mobile.jpg 1x, images/main-screen.mobile@2.jpg 2x">
 							<source media="(max-width: 768px)" type="image/webp" srcset="images/main-screen-tablet.webp 1x, images/main-screen-tablet@2.webp 2x">
 							<source media="(max-width: 768px)" type="image/jpg" srcset="images/main-screen.tablet.jpg 1x, images/main-screen.tablet@2.jpg 2x">
 							<source media="(max-width: 1440px)" type="image/webp" srcset="images/main-screen.webp 1x, images/main-screen@2.webp 2x">
-							<img src="images/main-screen.jpg" srcset="images/main-screen@2.jpg 2x" width="620" height="603" alt="" class="">
+							<img src="images/main-screen.jpg" srcset="images/main-screen@2.jpg 2x" width="620" height="603" alt="" class="img-fluid rounded-5 mx-auto">
 						</picture>
 					</article>
 				</div>
 			</div>
 		</section>
+		<section class="about" id="about">
+			<div class="container about__container ">
+				<div class="wrap about__wrap bg-color2 d-block px-4 py-5 rounded-5">
+					<div class="row title about__title">
+						<div class="col-12">
+							<h2 class="h2 text-white">About us</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="descriptions about__descriptions col-12 col-xl-6 mb-4">
+							<div class="row">
+								<div class="description about__description col-12">
+									<p class="text-white">Our young recruitment agency offering a fresh and innovative approach to bridging the gap between employers and IT specialists in Ukraine. </p>
+								</div>
+								<div class="description about__description col-12">
+									<p class="text-white">We believe that building strong relationships is the foundation of successful recruitment.
+					We foster trust, transparency, and open communication with both clients and candidates throughout the entire process. </p>
+								</div>
+							</div>
+						</div>
+						<div class="advantages about__advantages col-12 col-xl-5 mb-4">
+							<div class="row gx-5">
+								<div class="advantage about__advantage col-12 col-md-6 mt-n5 mb-4">
+									<dl>
+										<dt class="h2 text-white">1600</dt>
+										<dd class="text-white col-xl-10 col-xxl-8 mt-n4">Filled vacancies</dd>
+									</dl>
+								</div>
+								<div class="advantage about__advantage col-12 col-md-6 mt-n5 mb-4">
+									<dl>
+										<dt class="h2 text-white">1500</dt>
+										<dd class="text-white col-xl-10 col-xxl-8 mt-n4">Trained specialists</dd>
+									</dl>
+								</div>
+								<div class="advantage about__advantage col-12 col-md-6 mt-n5 mb-4">
+									<dl>
+										<dt class="h2 text-white">130 00</dt>
+										<dd class="text-white col-xl-10 col-xxl-8 mt-n4">Developers in our database</dd>
+									</dl>
+								</div>
+								<div class="advantage about__advantage col-12 col-md-6 mt-n5 mb-4">
+									<dl>
+										<dt class="h2 text-white">5</dt>
+										<dd class="text-white col-xl-10 col-xxl-8 mt-n4">Years in IT recruitment</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services" id="services">
+			<div class="container services__container overflow-hidden">
+				<div class="wrap services__wrap mt-6 mb-6">
+					<div class="row">
+						<div class="title services__title col-12">
+							<h2 class="h2 color1">Our <span class="color2">services</span></h2>
+							<p class="color1 col-12 col-md-10">We take pride in our expertise in the Ukrainian IT sector, allowing us to tap into the country's rich talent pool and connect businesses with highly skilled individuals who possess the right technical know-how, as well as the necessary soft skills to excel in their roles.</p>
+						</div>
+					</div>
+					<div class="row row-cols-1 row-cols-lg-3 col-12 gx-0 gy-3 gy-lg-0 gx-lg-3 mx-auto d-flex align-items-stretch">
+						<div class="col">
+							<div class="content service__content bg-white rounded-5 px-3 pt-3 pb-gl-5 pb-1 my-3">
+								<div class="row col-10 col-sm-9 col-xl-11">
+									<div class=" heading service__heading d-flex justify-content-start align-items-center">
+										<img width="61" height="61" src="images/icon-IT.svg" alt="">
+										<h4>IT recruitment in Ukraine </h4>
+									</div>
+								</div>
+								<div class="row">
+									<p class="text-dark col-12 col-md-9 col-lg-12">Recruitment of  both technical and non-technical specialists in IT. </p>
+									<ul class="list-style-disc">
+										<li class="text-dark list-style-position-inside">full cycle of recruitment</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="content service__content bg-white rounded-5 px-3 pt-3 pb-gl-5 pb-1 my-3">
+								<div class="row col-10 col-sm-9 col-xl-11">
+									<div class=" heading service__heading d-flex justify-content-start align-items-center">
+										<img width="61" height="61" src="images/icon-technical.svg" alt="">
+										<h4>Technical interview</h4>
+									</div>
+								</div>
+								<div class="row">
+									<p class="text-dark col-12 col-md-9 col-lg-12">We will provide a top-level specialist to evaluate the candidate’s technical skills and help your company make the best choice.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="content service__content bg-white rounded-5 px-3 pt-3 pb-gl-5 pb-1 my-3">
+								<div class="row col-10 col-sm-9 col-xl-11">
+									<div class=" heading service__heading d-flex justify-content-start align-items-center">
+										<img width="61" height="61" src="images/icon-relocation.svg" alt="">
+										<h4>Relocation support</h4>
+									</div>
+								</div>
+								<div class="row">
+									<p class="text-dark col-12 col-md-9 col-lg-12">Relocation of technical specialists from Ukraine to your worldwide offices.</p>
+									<ul>
+										<li class="h5 text-dark">visa</li>
+										<li class="h5 text-dark">bureaucratic procedures</li>
+										<li class="h5 text-dark">assistance with accommodation</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="expertise">
+			<div class="container expertise__container">
+				<div class="wrap expertise__wrap">
+					<div class="row">
+						<div class="col-12 title expertise__title">
+							<h2 class="h2 color1 col-12">Market <span class="color2">expertise</span></h2>
+							<p class="color1 col-12">Our team of experienced recruitment professionals possesses an in-depth understanding of the Ukrainian IT market. We continually monitor the landscape to identify new opportunities, evaluate industry shifts, and adapt our strategies to provide the best possible outcomes for our clients and candidates.</p>
+						</div>
+					</div>
+					<div class="row ranges expertise__ranges row-cols-1 row-cols-lg-2 gx-0 gx-lg-3 d-flex align-items-stretch">
+						<div class="col mb-4">
+							<div class="technologies range__technologies col-12 bg-white rounded-5 d-flex flex-column align-items-center pe-0 ps-0">
+								<div class="row col-12 bg-color2 rounded-top-5 d-flex justify-content-around align-items-center">
+									<h4 class="text-white text-center col-7 col-sm-12 pt-2 pb-2 pt-md-4 pb-md-4 my-0">Diverce range of technologies:</h4>
+								</div>
+								<div class="row col-12">
+									<ul class="row row-cols-2 row-cols-xl-3">
+										<li class="col text-dark">Microsoft</li>
+										<li class="col text-dark">JavaScript</li>
+										<li class="col text-dark">Mobile</li>
+										<li class="col text-dark">Java</li>
+										<li class="col text-dark">Python</li>
+										<li class="col text-dark">Ruby on Rails</li>
+										<li class="col text-dark">QA & AQA</li>
+										<li class="col text-dark">DevOps</li>
+										<li class="col text-dark">C++/Embedded</li>
+										<li class="col text-dark">Big data</li>
+										<li class="col text-dark">PHP</li>
+										<li class="col text-dark">UI/UX</li>
+										<li class="col text-dark">SAP</li>
+										<li class="col text-dark">SalesForce</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col mb-4">
+							<div class="seniority range__seniority col-12 bg-white rounded-5 d-flex flex-column align-items-center pe-0 ps-0">
+								<div class="row col-12 bg-color2 rounded-top-5 d-flex justify-content-around align-items-center">
+									<h4 class="text-white text-center col-7 col-sm-12 pt-2 pb-2 pt-md-4 pb-md-4 my-0">Diverce range of seniority level:</h4>
+								</div>
+								<div class="row col-12">
+									<ul class="row row-cols-2 row-cols-xl-3">
+										<li class="col text-dark">C-Level</li>
+										<li class="col text-dark">VP-Level</li>
+										<li class="col text-dark">Consultant</li>
+										<li class="col text-dark">Mid&nbsp;-&nbsp;Management</li>
+										<li class="col text-dark">Architect</li>
+										<li class="col text-dark">Senior</li>
+										<li class="col text-dark">Middle</li>
+										<li class="col text-dark"></li>
+										<li class="col text-dark">Junior</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+					 	<div class="col-12">
+					 		<div class="domain range__domain col-12 bg-white rounded-5 d-flex flex-column align-items-center pe-0 ps-0">
+					 			<div class="row col-12 bg-color2 rounded-top-5 d-flex justify-content-around align-items-center">
+					 				<h4 class="text-white text-center col-7 col-sm-12 pt-2 pb-2 pt-md-4 pb-md-4 my-0">Domain knowledge</h4>
+					 			</div>
+					 			<div class="row col-12 col-xl-10 col-xxl-9">
+					 				<ul class="list-inline text-center ps-0">
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">Medtech & Life sciences</li>
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">Software & Digital</li>
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">Networking & Communication</li>
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">Automotive</li>
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">Industrial & Electronics</li>
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">Game Development & Gambling</li>
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">FinTech & Blockchain</li>
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">IT infrastructure Administration</li>
+					 					<li class="col text-dark px-4 my-2 border border-2 border-color3 rounded-5 list-inline-item">Energy & Utilities</li>
+					 				</ul>
+					 			</div>
+					 		</div>
+					 	</div>
+					 </div> 
+				</div>
+			</div>
+		</section>
 	</main>
--->
+
 <script src="js/bootstrap.bundle.min.js"></script>
 	
 </body>

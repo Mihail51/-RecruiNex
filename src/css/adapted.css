@@ -1,8 +1,11 @@
 
 @media screen and (max-width: 1200px) {
-	.title {
+	.h2 {
 		font-size: 60px;
 		margin: 5px 0;
+	}
+	.mt-n4 {
+		margin-top: -1.5rem!important;
 	}
 	.screen__subtitle {
 		margin-top: 0;
@@ -10,30 +13,63 @@
 }
 
 @media screen and (max-width: 992px) {
-	.title {
+	.h2 {
 		font-size: 50px;
 	}
+	/*
+	.mt-n4 {
+		margin-top: -1rem!important;
+	}
+	*/
 	.screen__subtitle {
 		font-size: 20px;
 	}
+	
 	.screen__btn {
 		font-size: 24px;
 	}
 }
  @media screen and (max-width: 768px) {
- 	.title {
+ 	body {
+ 		font-size: 20px;
+ 		line-height: 150%;
+ 	}
+ 	.h2 {
  		font-size: 60px;
+ 	}
+ 	.service__content {
+ 		min-height: auto;
  	}
 }
 
  @media screen and (max-width: 576px) {
- 	.title {
+ 	body {
+ 		font-size: calc((100vw - 375px)/(576 - 375)*(20 - 15) + 15px);
+ 		line-height: 166.667%;
+ 	}
+ 	.h2 {
  		font-size: calc((100vw - 375px)/(576 - 375)*(50 - 36) + 36px);
  	}
+ 	/*
  	.screen__subtitle {
  		font-size: calc((100vw - 375px)/(576 - 375)*(20 - 15) + 15px);
  	}
+ 	*/
  	.screen__btn {
  		font-size: calc((100vw - 375px)/(576 - 375)*(24 - 20) + 20px);
+ 	}
+ 	.service__heading h4, .expertise h4 {
+ 		font-size: calc((100vw - 375px)/(576 - 375)*(28 - 20) + 20px);
+ 	}
+ 	.service__heading img {
+ 		width: calc((100vw - 375px)/(576 - 375)*(61 - 40) + 40px);
+ 		height: auto;
+ 	}
+ 	.service__content ul li {
+ 		font-size: calc((100vw - 375px)/(576 - 375)*(20 - 15) + 15px);
+ 	}
+ 	.range__domain ul li {
+ 		font-size: calc((100vw - 375px)/(576 - 375)*(20 - 15) + 15px);
+ 		display: block!important;
  	}
  }
